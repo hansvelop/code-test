@@ -166,7 +166,7 @@ class Solution {
             dir = 3;
         }
         init(N, region);
-        return push(r[0], r[1], dir, d[0], d[1]);
+        return push(r[0], r[1], 0, d[0], d[1]);
     }
 
     public static void main(String[] args) throws Exception {

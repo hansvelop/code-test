@@ -153,6 +153,7 @@ class Main {
         }
         init(N, region);
         int dir = 0;
+        boolean flag0 = personMove(p[0],p[1],r[0]-1,r[1]);
         boolean flag2 = personMove(p[0],p[1],r[0]+1,r[1]);
         boolean flag1 = personMove(p[0],p[1],r[0],r[1]+1);
         boolean flag3 = personMove(p[0],p[1],r[0],r[1]-1);
